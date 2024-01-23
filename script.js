@@ -21,9 +21,9 @@ function Clock() {
     hours.innerHTML = h;
     minutes.innerHTML = m;
     seconds.innerHTML = s;
-    period.innerHTML = ampm;
+    period.innerHTML = ampm; 
 
-
+    
 };
 Clock();
 setInterval(Clock, 1000);
